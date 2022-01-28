@@ -1,9 +1,8 @@
 <template>
     <div class="header">
       <h1>
-        Ma liste de tâches journalières
+        Toutes les tâches du {{ today }}
       </h1>
-
     </div>
 </template>
 
@@ -11,7 +10,8 @@
 <script>
 
 export default {
-  name: 'Header'
+  name: 'Header',
+  props: ['today']
 }
 
 </script>

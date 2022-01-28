@@ -22,6 +22,15 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
   .tasks {
-    margin: auto;
+    padding:3rem;
+    margin: 4rem auto;
+    background-color: rgba(0, 0, 0, 0.712);
+    border-radius:10px;
+    box-shadow: 5px 5px 5px gray; 
+  }
+
+  ul{
+    padding: 0;
+    list-style-type: none;
   }
 </style>
